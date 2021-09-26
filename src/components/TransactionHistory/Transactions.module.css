@@ -1,0 +1,20 @@
+.transactionHistory {
+  width: 800px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  height: 50px;
+  background-color: #3db3f8;
+}
+
+.raw {
+  text-align: center;
+}
+
+.raw:nth-child(2n) {
+  background-color: rgba(207, 205, 205, 0.6);
+}
